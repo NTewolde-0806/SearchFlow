@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 110;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		6DE6BE863093C23600233E64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6DE6BE703093C23300233E64 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6DE6BE773093C23300233E64;
+			remoteInfo = SearchFlow;
+		};
+		6DE6BE903093C23600233E64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6DE6BE703093C23300233E64 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6DE6BE773093C23300233E64;
+			remoteInfo = SearchFlow;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6DE6BE783093C23300233E64 /* SearchFlow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SearchFlow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DE6BE853093C23600233E64 /* SearchFlowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SearchFlowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DE6BE8F3093C23600233E64 /* SearchFlowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SearchFlowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		6DE6BE7A3093C23300233E64 /* SearchFlow */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SearchFlow;
+			sourceTree = "<group>";
+		};
+		6DE6BE883093C23600233E64 /* SearchFlowTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SearchFlowTests;
+			sourceTree = "<group>";
+		};
+		6DE6BE923093C23600233E64 /* SearchFlowUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SearchFlowUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6DE6BE753093C23300233E64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		6DE6BE823093C23600233E64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		6DE6BE8C3093C23600233E64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6DE6BE6F3093C23300233E64 = {
+			isa = PBXGroup;
+			children = (
+				6DE6BE7A3093C23300233E64 /* SearchFlow */,
+				6DE6BE883093C23600233E64 /* SearchFlowTests */,
+				6DE6BE923093C23600233E64 /* SearchFlowUITests */,
+				6DE6BE793093C23300233E64 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6DE6BE793093C23300233E64 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6DE6BE783093C23300233E64 /* SearchFlow.app */,
+				6DE6BE853093C23600233E64 /* SearchFlowTests.xctest */,
+				6DE6BE8F3093C23600233E64 /* SearchFlowUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6DE6BE773093C23300233E64 /* SearchFlow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DE6BE973093C23600233E64 /* Build configuration list for PBXNativeTarget "SearchFlow" */;
+			buildPhases = (
+				6DE6BE743093C23300233E64 /* Sources */,
+				6DE6BE753093C23300233E64 /* Frameworks */,
+				6DE6BE763093C23300233E64 /* Resources */,
+			);
+			buildRules = (
+			);
+			fileSystemSynchronizedGroups = (
+				6DE6BE7A3093C23300233E64 /* SearchFlow */,
+			);
+			name = SearchFlow;
+			productName = SearchFlow;
+			productReference = 6DE6BE783093C23300233E64 /* SearchFlow.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6DE6BE843093C23600233E64 /* SearchFlowTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DE6BE9A3093C23600233E64 /* Build configuration list for PBXNativeTarget "SearchFlowTests" */;
+			buildPhases = (
+				6DE6BE813093C23600233E64 /* Sources */,
+				6DE6BE823093C23600233E64 /* Frameworks */,
+				6DE6BE833093C23600233E64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6DE6BE873093C23600233E64 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				6DE6BE883093C23600233E64 /* SearchFlowTests */,
+			);
+			name = SearchFlowTests;
+			productName = SearchFlowTests;
+			productReference = 6DE6BE853093C23600233E64 /* SearchFlowTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6DE6BE8E3093C23600233E64 /* SearchFlowUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DE6BE9D3093C23600233E64 /* Build configuration list for PBXNativeTarget "SearchFlowUITests" */;
+			buildPhases = (
+				6DE6BE8B3093C23600233E64 /* Sources */,
+				6DE6BE8C3093C23600233E64 /* Frameworks */,
+				6DE6BE8D3093C23600233E64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6DE6BE913093C23600233E64 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				6DE6BE923093C23600233E64 /* SearchFlowUITests */,
+			);
+			name = SearchFlowUITests;
+			productName = SearchFlowUITests;
+			productReference = 6DE6BE8F3093C23600233E64 /* SearchFlowUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6DE6BE703093C23300233E64 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2710;
+				LastUpgradeCheck = 2710;
+				TargetAttributes = {
+					6DE6BE773093C23300233E64 = {
+						CreatedOnToolsVersion = 27.1;
+					};
+					6DE6BE843093C23600233E64 = {
+						CreatedOnToolsVersion = 27.1;
+						TestTargetID = 6DE6BE773093C23300233E64;
+					};
+					6DE6BE8E3093C23600233E64 = {
+						CreatedOnToolsVersion = 27.1;
+						TestTargetID = 6DE6BE773093C23300233E64;
+					};
+				};
+			};
+			buildConfigurationList = 6DE6BE733093C23300233E64 /* Build configuration list for PBXProject "SearchFlow" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6DE6BE6F3093C23300233E64;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 6DE6BE793093C23300233E64 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6DE6BE773093C23300233E64 /* SearchFlow */,
+				6DE6BE843093C23600233E64 /* SearchFlowTests */,
+				6DE6BE8E3093C23600233E64 /* SearchFlowUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6DE6BE763093C23300233E64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		6DE6BE833093C23600233E64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		6DE6BE8D3093C23600233E64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6DE6BE743093C23300233E64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		6DE6BE813093C23600233E64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		6DE6BE8B3093C23600233E64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6DE6BE873093C23600233E64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6DE6BE773093C23300233E64 /* SearchFlow */;
+			targetProxy = 6DE6BE863093C23600233E64 /* PBXContainerItemProxy */;
+		};
+		6DE6BE913093C23600233E64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6DE6BE773093C23300233E64 /* SearchFlow */;
+			targetProxy = 6DE6BE903093C23600233E64 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6DE6BE953093C23600233E64 /* Debug configuration for PBXProject "SearchFlow" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6DE6BE963093C23600233E64 /* Release configuration for PBXProject "SearchFlow" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6DE6BE983093C23600233E64 /* Debug configuration for PBXNativeTarget "SearchFlow" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.nohtewolde.SearchFlow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6DE6BE993093C23600233E64 /* Release configuration for PBXNativeTarget "SearchFlow" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.nohtewolde.SearchFlow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6DE6BE9B3093C23600233E64 /* Debug configuration for PBXNativeTarget "SearchFlowTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.nohtewolde.SearchFlowTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SearchFlow.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SearchFlow";
+			};
+			name = Debug;
+		};
+		6DE6BE9C3093C23600233E64 /* Release configuration for PBXNativeTarget "SearchFlowTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.nohtewolde.SearchFlowTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SearchFlow.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SearchFlow";
+			};
+			name = Release;
+		};
+		6DE6BE9E3093C23600233E64 /* Debug configuration for PBXNativeTarget "SearchFlowUITests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.nohtewolde.SearchFlowUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SearchFlow;
+			};
+			name = Debug;
+		};
+		6DE6BE9F3093C23600233E64 /* Release configuration for PBXNativeTarget "SearchFlowUITests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.nohtewolde.SearchFlowUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SearchFlow;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6DE6BE733093C23300233E64 /* Build configuration list for PBXProject "SearchFlow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DE6BE953093C23600233E64 /* Debug configuration for PBXProject "SearchFlow" */,
+				6DE6BE963093C23600233E64 /* Release configuration for PBXProject "SearchFlow" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		6DE6BE973093C23600233E64 /* Build configuration list for PBXNativeTarget "SearchFlow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DE6BE983093C23600233E64 /* Debug configuration for PBXNativeTarget "SearchFlow" */,
+				6DE6BE993093C23600233E64 /* Release configuration for PBXNativeTarget "SearchFlow" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		6DE6BE9A3093C23600233E64 /* Build configuration list for PBXNativeTarget "SearchFlowTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DE6BE9B3093C23600233E64 /* Debug configuration for PBXNativeTarget "SearchFlowTests" */,
+				6DE6BE9C3093C23600233E64 /* Release configuration for PBXNativeTarget "SearchFlowTests" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		6DE6BE9D3093C23600233E64 /* Build configuration list for PBXNativeTarget "SearchFlowUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DE6BE9E3093C23600233E64 /* Debug configuration for PBXNativeTarget "SearchFlowUITests" */,
+				6DE6BE9F3093C23600233E64 /* Release configuration for PBXNativeTarget "SearchFlowUITests" */,
+			);
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6DE6BE703093C23300233E64 /* Project object */;
+	validationLevel = 1;
+}
